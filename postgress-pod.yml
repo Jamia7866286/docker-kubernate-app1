@@ -14,4 +14,6 @@ spec:
      - containerPort: 5432
     env:
     - name: POSTGRES_DB
+      value: "myDb"
+    - name: POSTGRES_PASSWORD
       value: "Naseem@123"

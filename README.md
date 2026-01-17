@@ -12,3 +12,11 @@ all command with kubernative running app
 5. kubectl get services
 6. kubectl describe pod voting-app-pod
 7. kubectl get svc
+
+
+Error from server (AlreadyExists): error when creating "postgress-pod.yml": pods "postgres-pod" already exists
+
+already exist pod ko kese delete kre?
+
+8. kubectl delete pod postgres-pod --grace-period=0 --force
+
