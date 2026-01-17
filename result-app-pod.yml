@@ -11,7 +11,7 @@ spec:
   - name: result-app 
     image: dockersamples/examplevotingapp_result
     ports:
-     - containerPort: 5000
+     - containerPort: 80
     resources:
       requests:
         cpu: "150m"
