@@ -12,3 +12,10 @@ spec:
     image: dockersamples/examplevotingapp_result
     ports:
      - containerPort: 5000
+    resources:
+      requests:
+        cpu: "150m"
+        memory: "192Mi"
+      limits:
+        cpu: "300m"
+        memory: "256Mi"
